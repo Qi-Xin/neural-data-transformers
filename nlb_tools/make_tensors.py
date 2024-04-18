@@ -762,6 +762,8 @@ def make_jagged_array(dataset, fields, make_params, include_trials, jitter=None,
             arr = np.full((len(trial_ixs), max_len, dataset.data[field].shape[1]), np.nan)
             for i in range(len(trial_ixs)):
                 jit = int(round(jitter_vals[i] / dataset.bin_width))
+                if trial_ixs[i]==199:
+                    data = grouped[198]
                 data = grouped[trial_ixs[i]][field].to_numpy()
                 if pad == 'front':
                     if jit == 0:
