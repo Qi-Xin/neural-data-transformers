@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # Author: Joel Ye
 
+import sys
+sys.path.insert(0, '/home/qix/neural-data-transformers/')
+
 from typing import List, Union
 import os.path as osp
 import shutil

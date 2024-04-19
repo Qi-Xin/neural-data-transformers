@@ -1,6 +1,6 @@
-CHECKPOINT_DIR: "/home/joelye/user_data/nlb/ndt_runs"
+CHECKPOINT_DIR: "/home/qix/user_data/nlb/ndt_runs"
 DATA:
-  DATAPATH: "/home/joelye/user_data/nlb"
+  DATAPATH: "/home/qix/user_data/nlb"
   TRAIN_FILENAME: 'mc_maze_small.h5'
   VAL_FILENAME: 'mc_maze_small.h5'
 MODEL:
